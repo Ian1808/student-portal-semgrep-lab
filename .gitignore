@@ -1,0 +1,22 @@
+# XAMPP/PHP specific
+*.log
+.htaccess
+php_errorlog
+
+# Uploads and temp files
+uploads/
+uploads_secure/
+tmp/
+temp/
+
+# Database configs (if they contain passwords)
+config/database.php
+config/db.php
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+desktop.ini
